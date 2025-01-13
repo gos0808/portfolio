@@ -24,8 +24,8 @@ export const projectsData = [
             "nodejs.png",
             "mongo.png",
         ],
-        "GitHub": "https://github.com/gos0808/nutrition-analysis",
-        "Netlify": "https://nutritions-analysis.netlify.app"
+        "GitHub": "https://github.com/gos0808/Places-to-visit-backend_2",
+        "Netlify": "https://places-to-visit-fullstack.netlify.app/"
     },
     {
         "id": 3,
