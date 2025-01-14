@@ -6,6 +6,7 @@ export const projectsData = [
         "image": "farm-app.png",
         "buildWith": [
             "react1.png",
+            "redux.png",
             "css1.png",
             "nodejs.png",
             "mongo.png",

@@ -21,6 +21,7 @@ export const MainPage = () => {
   <li>HTML / CSS</li>
   <li>JavaScript</li>
   <li>React</li>
+  <li>Redux</li>
   <li>NodeJS</li>
 </ul>
 
