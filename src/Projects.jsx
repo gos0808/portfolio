@@ -6,7 +6,6 @@ export const Projects = () => {
     return (
         <div className='project-container' >
           {projectsData.map((project, index) => {
-            console.log(index % 4)
             let columnClass = '';
             if (index % 4 === 0) {
               columnClass = "big-column-left"; // 1st item (big, left)

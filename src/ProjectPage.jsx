@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 export const ProjectPage = ({project, columnClass, animationDelay}) => {
 
     AOS.init({
-          duration: 1000,
+        //   duration: 500,
           easing: 'ease-in-out', 
           once: false,  
     })
@@ -17,7 +17,7 @@ export const ProjectPage = ({project, columnClass, animationDelay}) => {
 key ={project.id} 
 className={`${columnClass} project`} 
 data-aos="fade-up"
-data-aos-delay={animationDelay}
+// data-aos-delay={animationDelay}
 data-aos-anchor-placement="top-center"
 >
 
@@ -58,4 +58,3 @@ onClick={() => window.open(project.Netlify)}
     </div> 
     );
 }
- 

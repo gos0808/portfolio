@@ -142,19 +142,19 @@ export const projectsData = [
         "GitHub": "https://github.com/gos0808/Tic-Tac-Toe",
         "Netlify": "https://noughts-crosses-game.netlify.app/"
     },
-    {
-        "id": 11,
-        "title": "Light-Dark Mode",
-        "description": "It's a dynamic website designed to provide a seamless user experience with the capability to switch between light and dark modes.",
-        "image": "light-dark.png",
-        "buildWith": [
-            "html.png",
-            "css1.png",
-            "js.png"
-        ],
-        "GitHub": "https://github.com/gos0808/Light-dark-mode",
-        "Netlify": "https://switchingmode.netlify.app/"
-    },
+    // {
+    //     "id": 11,
+    //     "title": "Light-Dark Mode",
+    //     "description": "It's a dynamic website designed to provide a seamless user experience with the capability to switch between light and dark modes.",
+    //     "image": "light-dark.png",
+    //     "buildWith": [
+    //         "html.png",
+    //         "css1.png",
+    //         "js.png"
+    //     ],
+    //     "GitHub": "https://github.com/gos0808/Light-dark-mode",
+    //     "Netlify": "https://switchingmode.netlify.app/"
+    // },
     
     
 ];
