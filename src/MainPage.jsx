@@ -28,6 +28,7 @@ export const MainPage = () => {
         <li>Electronic documents</li>
         <li>Entry journal</li>
         <li>Notification messaging</li>
+        <li>Payments</li>
       </ul>
 
       <p className="titles">Development skills</p>
