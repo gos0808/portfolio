@@ -2,7 +2,15 @@ export const projectsData = [
     {
         "id": 1,
         "title": "Local Farm website",
-        "description": "At the Blue Sky Farm, you can browse seasonal events, shop the freshest products, and log in or sign up securely to enhance your experience. Effortlessly manage your cart, make secure payments, and enjoy fast checkout. Use our map for navigation and contact us with any questions",
+        "description": "A web application for a farm business, featuring a product showcase, events, shopping cart, and order management system",
+        "features": [
+            "User registration and login (authentication)",
+            "Interactive shopping cart with the ability to add and remove products",
+            "Display of seasonal products and events",
+            "Map integration for navigation",
+            "Secure payment processing by using Stripe",
+            "Responsive design for mobile devices"
+        ],
         "image": "farm-app.png",
         "buildWith": [
             "react1.png",
@@ -17,7 +25,13 @@ export const projectsData = [
     {
         "id": 2,
         "title": "Places to Visit in Canada",
-        "description": "The Places to visit in Canada app is an intuitive web application for exploring, creating, editing, and managing a list of must-visit destinations in Canada.",
+        "description": "The Places to visit in Canada app for exploring, creating, editing, and managing a list of must-visit destinations in Canada.",
+        "features": [
+            "Listing of destinations across Canada",
+            "Addition of new places to a personal list",
+            "Editing and updating of destination information",
+            "Marking destinations as visited"
+        ],
         "image": "places-to-visit.png",
         "buildWith": [
             "react1.png",
@@ -31,7 +45,12 @@ export const projectsData = [
     {
         "id": 3,
         "title": "Nutrition Analysis",
-        "description": "The Nutrition Analysis app allows you to input a list of ingredients along with their quantities and provides an estimate of the nutritional information for the entire recipe or individual ingredient. Using a nutrition database, it calculates key metrics such as calories, macronutrients (carbohydrates, proteins, fats), and micronutrients (vitamins and minerals).",
+        "description": "A web application for analyzing recipes and view detailed nutritional information.",
+        "features": [
+            "Addition of ingredients from recipes",
+            "Display of calories, carbohydrates, proteins, fats, and vitamins",
+            "Utilization of a nutrition API for accurate and up-to-date data"
+        ],
         "image": "nutritions-analysis.png",
         "buildWith": [
             "react1.png",
@@ -43,7 +62,12 @@ export const projectsData = [
     {
         "id": 4,
         "title": "Recipe Finder",
-        "description": "The Recipe Finder app allows you to input a single ingredient and gives a list of suggested recipes. By searching a comprehensive recipe database, the app recommends dishes that highlight or incorporate the chosen item. You can explore diverse cuisines, dietary options, or cooking styles, making it easy to discover new ways to enjoy their favorite or available ingredients",
+        "description": "The Recipe Finder app helps discover new recipes by entering a single ingredient.",
+        "features": [
+            "Searching for recipe suggestions",
+            "Display of diverse cuisines, dietary options, and cooking styles",
+            "Utilization of a robust recipe API for a wide variety of up-to-date recipe data"
+        ],
         "image": "recipes-hunt.png",
         "buildWith": [
             "react1.png",
@@ -55,7 +79,13 @@ export const projectsData = [
     {
         "id": 5,
         "title": "To Do List",
-        "description": "This interactive application is designed to help you efficiently organize and prioritize your daily tasks. The To-Do List allows users to effortlessly add and manage tasks with a simple click. Whether you're planning your day or tracking your responsibilities, this tool is built to enhance productivity and simplify your life",
+        "description": "An interactive application for efficient organization and daily tasks prioritization.",
+        "features": [
+            "Addition of new tasks",
+            "Management of existing tasks",
+            "Marking tasks as completed",
+            "Deletion of tasks"
+        ],
         "image": "checkklist.png",
         "buildWith": [
             "react1.png",
@@ -67,7 +97,12 @@ export const projectsData = [
     {
         "id": 6,
         "title": "Grocery List",
-        "description": "The Grocery List Website is a simple, user-friendly web application designed to help users efficiently manage their grocery shopping",
+        "description": "A web application for management of grocery shopping.",
+        "features": [
+            "Addition of grocery items",
+            "Marking items as purchased",
+            "Deletion of all items"
+        ],
         "image": "grocerylistt.png",
         "buildWith": [
             "react1.png",
@@ -79,7 +114,11 @@ export const projectsData = [
     {
         "id": 7,
         "title": "Quote Generator",
-        "description": "The Quote Generator is a dynamic web application designed to inspire and motivate users by providing random quotes from a vast collection of famous people. Whether you're looking for a spark of inspiration, a moment of reflection, or just a random piece of wisdom, this website is your go-to source for powerful quotations",
+        "description": "A web application for providing random inspirational and motivational quotes.",
+        "features": [
+            "Generation of random quotes from a vast collection",
+            "Sharing of quotes via social media or other platforms"
+        ],
         "image": "quotes.png",
         "buildWith": [
             "html.png",
@@ -105,7 +144,12 @@ export const projectsData = [
     {
         "id": 8,
         "title": "Animated Menu",
-        "description": "The Animated Menu app showcases a rolling menu animation, offering a dynamic and engaging way to navigate content",
+        "description": "A web application for displaying dynamic rolling menu animations to enhance navigation.",
+        "features": [
+            "Display of animated rolling menus",
+            "Smooth transitions between menu items",
+            "Interactive navigation through content"
+        ],
         "image": "animatedmenu.png",
         "buildWith": [
             "html.png",
@@ -118,7 +162,12 @@ export const projectsData = [
     {
         "id": 9,
         "title": "Timer",
-        "description": "The Custom Seconds Countdown Timer is a specialized, intuitive web application designed for high-precision timing needs",
+        "description": "A web application for precise countdown timing in seconds.",
+        "features": [
+            "Setting of custom countdown durations in seconds",
+            "Start, and pause of the timer",
+            "Real-time display of remaining time"
+        ],
         "image": "timee-keeper.png",
         "buildWith": [
             "html.png",
@@ -128,11 +177,16 @@ export const projectsData = [
         "GitHub": "https://github.com/gos0808/Timer",
         "Netlify": "https://timee-keeper.netlify.app/"
     },
-    
+
     {
         "id": 10,
         "title": "Tic-Tac-Toe Game",
-        "description": "This Tic Tac Toe Game is a classic, easy-to-play, and well-loved game brought to the digital platform. Designed to be intuitive and accessible, it provides a fun and engaging experience for players of all ages.",
+        "description": "A web application for playing the classic Tic Tac Toe game.",
+        "features": [
+            "Creation of a new game session",
+            "Placement of X and O marks on the game board",
+            "Detection of game outcomes (win, draw, or ongoing)",
+            "Option to restart or reset the game"],
         "image": "noughts-crosses-game.png",
         "buildWith": [
             "html.png",
@@ -155,6 +209,6 @@ export const projectsData = [
     //     "GitHub": "https://github.com/gos0808/Light-dark-mode",
     //     "Netlify": "https://switchingmode.netlify.app/"
     // },
-    
-    
+
+
 ];

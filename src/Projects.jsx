@@ -21,7 +21,7 @@ export const Projects = () => {
             return <ProjectPage key={project.id} 
             columnClass={columnClass} 
             project={project} 
-            animationDelay = {index * 50}
+            // animationDelay = {index * 10}
             />; 
           })}
         </div>

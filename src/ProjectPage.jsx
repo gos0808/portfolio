@@ -37,8 +37,14 @@ onClick={() => window.open(project.Netlify)}
 
 <p >{project.description}</p>
 
+<p className='features-title'>Key features</p>
+
+{project.features.map((feature) => {
+return <li className='features'>{feature}</li>
+})}
+
 <div className='build-with'>
-<p>Build with:
+<p className='project-title'>Build with:
     {project.buildWith.map((image, index) => {
         return <img className='build-with-icons'
         key={index} src={`/images/${image}`} alt={image} />

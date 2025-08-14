@@ -22,22 +22,22 @@ li {
 
 a {
   font-weight: 500;
-  /* color: #929191; */
-  color: #baa38b;
-  ;
+  /* color: #baa38b; */
+  color: #bfa06a;
   text-decoration: underline;
 }
 
 a:hover {
-  color: #b7b8c4;
+  filter: brightness(80%);
 }
 
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  padding: 1rem;
+  /* padding: 1rem; */
   overflow-x: hidden;
+  /* сверху ярко-желтый, снизу очень светлый */
 }
 
 img {
