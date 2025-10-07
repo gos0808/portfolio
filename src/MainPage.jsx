@@ -6,7 +6,7 @@ export const MainPage = () => {
     <div className="main-grid">
       <p className="about-me">
         Hi! I'm a <strong>Business System Analyst (BSA)</strong> with
-        <strong> 7+ years</strong> of experience, primarily in business system
+        <strong> 6+ years</strong> of experience, primarily in business system
         analysis and project management, complemented by hands-on{' '}
         <strong>front-end development skills</strong>
 
